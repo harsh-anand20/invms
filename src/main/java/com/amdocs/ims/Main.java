@@ -31,7 +31,7 @@ public class Main {
                     case 2:
 
                         System.out.println("Enter Your Name: ");
-                        String name=sc.nextLine();
+                        String name=sc.next();
                         System.out.println("Enter Your Email: ");
                         String reg_email=sc.next();
                         System.out.println("Enter Password: ");
@@ -65,7 +65,7 @@ public class Main {
                         + "3. View your order history. \n4. Cancel your order. \n"
                         + "5. View product list.\n6. Update Stock\n7. Add new product.\n"
                         + "8. View Order(s) of other users.\n9. Swap role.\n"
-                        + "10. View Existing Users\n11. Logout\n");
+                        + "10. View Existing Users\n11. Logout\n\nEnter your choice: ");
                 int m=sc.nextInt();
                 switch (m) {
                     case 1:
